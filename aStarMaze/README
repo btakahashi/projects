@@ -1,0 +1,19 @@
+Simple maze solver!
+
+Okay maybe not so simple and surely wont be very efficient immediately.
+
+A* - attempts every possible valid move (more or less...)
+
+Conditions:
+x - indicates a wall, the user can not move onto or through an x
+o - the user, can move up, down, left, or right but should do so on its own
+E - the endgame! The user is trying to reach this location
+
+There is no user input for this (yet) and is therefor a simple (and terrible)
+AI.
+
+Future work after the game can solve itself
+-custom maps through file input
+-ability to determine if a map is solvable
+-optimization of algorithm to find end
+-user input, because who doesn't want a text based maze game...
